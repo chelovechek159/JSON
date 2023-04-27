@@ -1,20 +1,20 @@
 {
-  ID: 81,
-  Severity: "Minor",
-  Environment: "iPhone 13 (iOS 16.4.1 safari); Xiaomi Redmi Note 7 (Android 10, Chrome 112)",
-  Title: "The images are narrowed when page width is less than 612 px in portrait screen orientation",
-  Steps_to_reproduce: {
-    1: "Navigate to capital.com",                               
-    2: "Tap on [burger menu]",                            
-    3: "Tap on menu section [Education]",
-    4: "Tap on menu item [CFD trading guide]",
-    5: "Scroll down to the images",
+  "ID": 81,
+  "Severity": "Minor",
+  "Environment": "iPhone 13 (iOS 16.4.1 safari); Xiaomi Redmi Note 7 (Android 10, Chrome 112)",
+  "Title": "The images are narrowed when page width is less than 612 px in portrait screen orientation",
+  "Steps_to_reproduce": {
+    "1": "Navigate to capital.com",
+    "2": "Tap on [burger menu]",
+    "3": "Tap on menu section [Education]",
+    "4": "Tap on menu item [CFD trading guide]",
+    "5": "Scroll down to the images",
   },
-  Expected_Result: "Images has normal size in portrait screen orientation",
-  Actual_Result: "Images are narrowed in portrait screen orientation",
-  Link: "https://drive.google.com/file/d/1yGDgoTkzXEMLnPam2g3-2d2ZLRBNLwKF/view?usp=drivesdk",
-  License: "All",
-  Role: "All",
-  Bug_started: "@WiseChel",
-  Bug_reproduced: "@mranolegprivate; @tomkcat; @Olga_username1"
+  "Expected_Result": "Images has normal size in portrait screen orientation",
+  "Actual_Result": "Images are narrowed in portrait screen orientation",
+  "Link": "https://drive.google.com/file/d/1yGDgoTkzXEMLnPam2g3-2d2ZLRBNLwKF/view?usp=drivesdk",
+  "License": "All",
+  "Role": "All",
+  "Bug_started": "@WiseChel",
+  "Bug_reproduced": "@mranolegprivate; @tomkcat; @Olga_username1"
 }
