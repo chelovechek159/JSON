@@ -40,7 +40,8 @@ ___
     git push -u
 
 ### 9. Create file `preferences.json`
-    json - cat > preferences.json
+ 
+    cat > preferences.json
 
 ### 10. Add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, country you would like to visit) to the `preferences.json` file in JSON format.
     cat >> preferences.json
