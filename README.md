@@ -44,8 +44,8 @@ or
     git add new.json
     git commit -m "text"
     git push 
-result
->https://github.com/chelovechek159/JSON/blob/main/new.json
+
+>[result](https://github.com/chelovechek159/JSON/blob/main/new.json)
 ### 9. Create file `preferences.json`
  
     cat > preferences.json
@@ -54,9 +54,8 @@ result
 
     cat >> preferences.json
     add information in JSON format
-result
 
->https://github.com/chelovechek159/JSON/blob/main/preferences.json
+>[result](https://github.com/chelovechek159/JSON/blob/main/preferences.json)
 
 ### 11. Create a file `skills.json` add information about the skills that will be studied in the course in JSON format
 
@@ -67,9 +66,7 @@ result
     git add .
     git commit -m "text"
     git push
-result
-
->https://github.com/chelovechek159/JSON/blob/main/skills.json
+>[result](https://github.com/chelovechek159/JSON/blob/main/skills.json)
 ### 13. On the web interface, create a file `bug_report.json`
     Add file
     Create new file
@@ -82,9 +79,7 @@ result
 
 ### 16. Make Commit changes (save) changes on the web interface
     click on the button [Commit changes]
-result
-
->https://github.com/chelovechek159/JSON/blob/main/bug_report.json
+>[result](https://github.com/chelovechek159/JSON/blob/main/bug_report.json)
 ### 17. Synchronize external and local JSON repository 
     git pull
 
