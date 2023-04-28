@@ -1,30 +1,31 @@
 # JSON
 ___
-###1. Create an external repository called JSON
+
+### 1. Create an external repository called JSON
 
     click create New Repository
     entered Repository name - JSON
     choose Public repo, add a Readmy file, create repo.
  
-###2. Clone JSON repository to local machine
+### 2. Clone JSON repository to local machine
     
     git clone "git clone https://github.com/chelovechek159/JSON.git"
 
-###3. Inside local JSON create file `new.json`
+### 3. Inside local JSON create file `new.json`
     cd JSON 
     cat > new.json
     "control + c"
 
-###4. Add file under git
+### 4. Add file under git
     git add new.json
 
-###5. Commit a file
+### 5. Commit a file
     git commit -m "newJSONFile"
 
-###6. Push file to external GitHub repository
+### 6. Push file to external GitHub repository
     git push "or u can add file via GitHub (click on button Add file)"
 
-###7. Edit the contents of the `new.json` file - write information about yourself (name, age, number of pets, future desired salary). Everything is written in JSON format
+### 7. Edit the contents of the `new.json` file - write information about yourself (name, age, number of pets, future desired salary). Everything is written in JSON format
     cat >> new.json 
         {
         "Full name": "*",
@@ -33,15 +34,15 @@ ___
         "Future desired salary": "*"
         }
  
-###8. Push changes to an external repository
+### 8. Push changes to an external repository
     git add new.json
     git commit -m "text"
     git push -u
 
-###9. Create file `preferences.json`
+### 9. Create file `preferences.json`
     json - cat > preferences.json
 
-###10. Add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, country you would like to visit) to the `preferences.json` file in JSON format.
+### 10. Add information about your preferences (Favorite movie, favorite series, favorite food, favorite season, country you would like to visit) to the `preferences.json` file in JSON format.
     cat >> preferences.json
         {
             "Favorite movie": "Harry Potter",
@@ -51,7 +52,7 @@ ___
             "Country you would like to visit": "Japan"
         }
 
-###11. Create a file `skills.json` add information about the skills that will be studied in the course in JSON format
+### 11. Create a file `skills.json` add information about the skills that will be studied in the course in JSON format
 	{
     "Skills": { "1": "Terminal", 
 	     	    "2": "SQL",  
@@ -62,18 +63,18 @@ ___
 		  }
 	}
  
-###12. Send 2 files at once to an external repository
+### 12. Send 2 files at once to an external repository
     git add .
     git commit -m "text"
     git push
 
-###13. On the web interface, create a file `bug_report.json`
+### 13. On the web interface, create a file `bug_report.json`
     Add file
     Create new file
-###14. Make Commit changes (save) changes on the web interface
+### 14. Make Commit changes (save) changes on the web interface
     Add changes
     click on the button [Commit changes]
-###15. Modify the `bug_report.json` file on the web interface to add a bug report in JSON format
+### 15. Modify the `bug_report.json` file on the web interface to add a bug report in JSON format
     {
         "ID": 81,
         "Severity": "Minor",
@@ -95,10 +96,10 @@ ___
         "Bug_reproduced": "@mranolegprivate; @tomkcat; @Olga_username1"
     }
 
-###16. Make Commit changes (save) changes on the web interface
+### 16. Make Commit changes (save) changes on the web interface
     Add changes
     click on the button [Commit changes]
 
-###17. Synchronize external and local JSON repository 
+### 17. Synchronize external and local JSON repository 
     git pull
 
